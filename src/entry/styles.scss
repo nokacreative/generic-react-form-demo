@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
+@import 'assets/vars.scss';
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  overflow: hidden;
+}
+
+#root {
+  font-family: 'Raleway', sans-serif;
+  color: $text;
+  font-size: 18px;
+  line-height: 28px;
+  display: flex;
+  min-height: 100%;
+}
+
+code {
+  background-color: #dedede;
+  padding: 3px 7px;
+  color: $secondary;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+b {
+  font-weight: 600;
+}
+
+a {
+  color: $primary;
+}
+
+ul {
+  margin-top: 0.5rem;
+}
+
+#links {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  width: 30%;
+
+  a {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+}
+
+main {
+  padding: 2rem;
+  flex: 1;
+  width: 70%;
+  overflow: auto;
+}
+
+button {
+  background: $primary;
+  border: 2px solid $primary;
+  border-radius: 2rem;
+  padding: 1.2rem 2.5rem;
+  font-size: inherit;
+  text-transform: uppercase;
+  color: white;
+  font-family: inherit;
+
+  &:not(:disabled) {
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      background: none;
+      color: $primary;
+      padding: 1.2rem 2.3rem;
+    }
+  }
+
+  &:disabled {
+    opacity: 0.6;
+  }
+
+  &[type='submit'] {
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+.date-control-wrapper button {
+  &:hover {
+    padding: initial;
+  }
+}
+
+@media all and (max-width: 950px) {
+  #links,
+  main {
+    width: auto;
+  }
+  #links {
+    margin-bottom: 0;
+  }
+  #root {
+    flex-direction: column;
+  }
+}
+
+@media print {
+  #links {
+    display: none;
+  }
+}
+
+span.footnote {
+  font-size: 0.8em;
+  color: rgb(83, 83, 83);
+  line-height: 20px;
+}

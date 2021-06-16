@@ -1,0 +1,1 @@
+export { ArraySample } from './view'

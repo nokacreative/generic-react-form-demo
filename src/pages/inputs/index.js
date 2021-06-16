@@ -1,0 +1,1 @@
+export { InputsSample } from './view'

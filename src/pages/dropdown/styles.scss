@@ -1,0 +1,9 @@
+@import 'assets/vars';
+
+.test input {
+  border: 2px solid $primary;
+
+  &::placeholder {
+    color: $primary;
+  }
+}

@@ -1,0 +1,1 @@
+export { TextareaSample } from './view'

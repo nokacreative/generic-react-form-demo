@@ -1,0 +1,1 @@
+export { StandaloneSample } from './view'
