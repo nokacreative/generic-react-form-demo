@@ -6,6 +6,8 @@ export const emptyModel: TestModel = {
   resize1: '',
   resize2: '',
   resize3: '',
+  md: '',
+  md2: '',
 }
 
 export const config: FormSectionConfig<TestModel>[] = [
@@ -42,6 +44,23 @@ export const config: FormSectionConfig<TestModel>[] = [
             propertyPath: 'resize3',
             allowVerticalResize: true,
             allowHorizontalResize: true,
+          },
+        ],
+      },
+      {
+        controls: [
+          {
+            type: FormControlType.TEXTAREA,
+            label: 'Rich',
+            propertyPath: 'md',
+            useMarkdown: true,
+          },
+          {
+            type: FormControlType.TEXTAREA,
+            label: 'Rich (with image uploader)',
+            propertyPath: 'md2',
+            useMarkdown: true,
+            allowImageUpload: true,
           },
         ],
       },
