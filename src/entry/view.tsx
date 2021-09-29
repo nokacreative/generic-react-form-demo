@@ -1,7 +1,7 @@
 import React from 'react'
 import { HashRouter as Router, Switch, Route, Link } from 'react-router-dom'
 
-import '@nokacreative/generic-react-form/index.css'
+import '@nokacreative/generic-react-form/dist/index.css'
 import './styles.scss'
 
 import { ROUTES } from '../assets/routes'
