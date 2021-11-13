@@ -1,25 +1,23 @@
 {
   "files": {
-    "main.css": "/generic-react-form-demo/static/css/main.db9abc9f.chunk.css",
-    "main.js": "/generic-react-form-demo/static/js/main.4d42afbe.chunk.js",
-    "main.js.map": "/generic-react-form-demo/static/js/main.4d42afbe.chunk.js.map",
+    "main.css": "/generic-react-form-demo/static/css/main.18207ca0.chunk.css",
+    "main.js": "/generic-react-form-demo/static/js/main.6e28bbbb.chunk.js",
+    "main.js.map": "/generic-react-form-demo/static/js/main.6e28bbbb.chunk.js.map",
     "runtime-main.js": "/generic-react-form-demo/static/js/runtime-main.15ebe284.js",
     "runtime-main.js.map": "/generic-react-form-demo/static/js/runtime-main.15ebe284.js.map",
-    "static/css/2.12f71e6c.chunk.css": "/generic-react-form-demo/static/css/2.12f71e6c.chunk.css",
-    "static/js/2.16a28e4b.chunk.js": "/generic-react-form-demo/static/js/2.16a28e4b.chunk.js",
-    "static/js/2.16a28e4b.chunk.js.map": "/generic-react-form-demo/static/js/2.16a28e4b.chunk.js.map",
+    "static/js/2.7a44687c.chunk.js": "/generic-react-form-demo/static/js/2.7a44687c.chunk.js",
+    "static/js/2.7a44687c.chunk.js.map": "/generic-react-form-demo/static/js/2.7a44687c.chunk.js.map",
     "static/js/3.44ab78ba.chunk.js": "/generic-react-form-demo/static/js/3.44ab78ba.chunk.js",
     "static/js/3.44ab78ba.chunk.js.map": "/generic-react-form-demo/static/js/3.44ab78ba.chunk.js.map",
     "index.html": "/generic-react-form-demo/index.html",
-    "static/css/2.12f71e6c.chunk.css.map": "/generic-react-form-demo/static/css/2.12f71e6c.chunk.css.map",
-    "static/css/main.db9abc9f.chunk.css.map": "/generic-react-form-demo/static/css/main.db9abc9f.chunk.css.map",
-    "static/js/2.16a28e4b.chunk.js.LICENSE.txt": "/generic-react-form-demo/static/js/2.16a28e4b.chunk.js.LICENSE.txt"
+    "static/css/main.18207ca0.chunk.css.map": "/generic-react-form-demo/static/css/main.18207ca0.chunk.css.map",
+    "static/js/2.7a44687c.chunk.js.LICENSE.txt": "/generic-react-form-demo/static/js/2.7a44687c.chunk.js.LICENSE.txt",
+    "static/js/main.6e28bbbb.chunk.js.LICENSE.txt": "/generic-react-form-demo/static/js/main.6e28bbbb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.15ebe284.js",
-    "static/css/2.12f71e6c.chunk.css",
-    "static/js/2.16a28e4b.chunk.js",
-    "static/css/main.db9abc9f.chunk.css",
-    "static/js/main.4d42afbe.chunk.js"
+    "static/js/2.7a44687c.chunk.js",
+    "static/css/main.18207ca0.chunk.css",
+    "static/js/main.6e28bbbb.chunk.js"
   ]
 }
