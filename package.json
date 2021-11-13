@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://nokacreative.github.io/generic-react-form-demo",
   "dependencies": {
-    "@nokacreative/generic-react-form": "^1.0.40",
+    "@nokacreative/generic-react-form": "^1.0.41",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",

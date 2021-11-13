@@ -1450,10 +1450,10 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
-"@nokacreative/generic-react-form@^1.0.40":
-  version "1.0.40"
-  resolved "https://registry.yarnpkg.com/@nokacreative/generic-react-form/-/generic-react-form-1.0.40.tgz#4c1f149f308cb78972cce5c63387628ce9d6d379"
-  integrity sha512-xPwJOChUy7K3T5xWN93Wi0jaIDfUTpzgfd4YVzC7je9c8WGXl/rAZvxiwBlnGCPGOlt/OVfif660/AIfsKWMAA==
+"@nokacreative/generic-react-form@^1.0.41":
+  version "1.0.41"
+  resolved "https://registry.yarnpkg.com/@nokacreative/generic-react-form/-/generic-react-form-1.0.41.tgz#0f13c36f05e7e858a181e129e95c690170fa69de"
+  integrity sha512-EXbgFxZiIbCS3iCDqtSCKsOXdyBywp5RVVsVh4cZJ/zSthQ6+ILqXNRDw5/c/+hJm9zvHxaXavdPrFMqzIBZYw==
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^1.2.35"
     "@fortawesome/free-regular-svg-icons" "^5.15.3"
